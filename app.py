@@ -5,10 +5,10 @@ from psycopg2 import sql, extras
 app = Flask(__name__)
 
 # Database connection details
-DB_HOST = "yt-demo.c7s8gqgmm3ln.us-east-2.rds.amazonaws.com"
+DB_HOST = "****"
 DB_NAME = "postgres"
 DB_USER = "postgres"
-DB_PASSWORD = "G7m!X9t#qK2f5B&z4L"
+DB_PASSWORD = "****"
 DB_PORT = 5432
 
 def get_db_connection():
